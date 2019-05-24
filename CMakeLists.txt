@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(ignoreMe "${CMAKE_C_COMPILER}")
 
 add_executable(CSharpStyleAccessors main.cpp
+    Simple.cpp
+    SomeClass.cpp
 )
